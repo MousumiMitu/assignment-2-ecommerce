@@ -78,6 +78,7 @@ p {
 .card-bottom {
   border: none;
   margin-top: -35px;
+  background: white;
 }
 .card-bottom h2 {
   margin-right: 50px;
