@@ -23,7 +23,7 @@ body {
   font-weight: 600;
 }
 .hero-part img {
-  width: 80%;
+  width: 85%;
 }
 .hero-part2 h2 {
   font-size: 75px;
@@ -87,9 +87,6 @@ p {
 .service-bg img {
   width: 100%;
   padding-left: 50px;
-}
-.border1 {
-  border: 1px solid red;
 }
 .service-body {
   margin: 150px 0;
