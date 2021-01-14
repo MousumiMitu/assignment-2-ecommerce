@@ -7,6 +7,12 @@ body {
 }
 .container-bg {
   background-color: #fff9f4;
+  position: relative;
+}
+.bg-img {
+  background: url(images/bg1.png);
+  background-repeat: no-repeat;
+  background-position: 300px;
 }
 .nav-logo img {
   width: 50px;
@@ -164,5 +170,13 @@ p {
   }
   .center-part {
     justify-content: center;
+  }
+  .bg-img {
+    background: none;
+  }
+}
+@media (max-width: 800px) {
+  .bg-img {
+    background: none;
   }
 }
