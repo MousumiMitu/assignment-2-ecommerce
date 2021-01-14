@@ -1,0 +1,23 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #3c3c3c;
+}
+/* font-family: 'Bebas Neue', cursive; */
+
+.nav-logo img {
+  width: 50px;
+}
+.span1 {
+  color: #fa804c;
+}
+.span2 {
+  color: #363958;
+}
+.nav-textstyle a {
+  color: #3c3c3c;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.hero-part img {
+  width: 500px;
+}
