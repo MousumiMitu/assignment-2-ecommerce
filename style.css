@@ -70,6 +70,7 @@ p {
   padding: 16px;
   border-radius: 10px;
   border: none;
+  box-shadow: 2px 2px 2px rgb(243, 240, 240);
 }
 .card-fond {
   font-size: 20px;
@@ -99,8 +100,8 @@ p {
 .service-item {
   display: flex;
   justify-content: space-evenly;
-  background: rgba(246, 245, 243, 0.733);
-  padding: 5px 10px;
+  background: rgba(250, 249, 248, 0.733);
+  padding: 10px 10px;
   margin: 12px 0;
   border-radius: 10px;
 }
@@ -108,10 +109,6 @@ p {
   font-weight: bolder;
   margin-bottom: 14px;
 }
-.inverse-col {
-  display: flex;
-}
-
 .bottom-bg {
   background: rgb(245, 243, 240);
 }
@@ -151,12 +148,16 @@ p {
   display: flex;
   justify-content: flex-start;
 }
-
+.social-icon {
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+.fab {
+  font-size: 30px;
+  padding-left: 15px;
+  cursor: pointer;
+}
 @media (max-width: 575.98px) {
-  .inverse-row {
-    display: flex;
-    flex-direction: row-reverse;
-  }
   .service-item {
     display: flex;
     flex-direction: column;
